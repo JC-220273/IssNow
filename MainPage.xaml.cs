@@ -36,7 +36,7 @@ namespace IssNow
             LatitudeText.Text = result.Position.LatitudeAbsolute
                                 +" " + result.Position.LatitudeDirection;
             LongitudeText.Text= result.Position.LongitudeAbsolute
-                                 + " " + result.Position.LongitudeAbsolute;
+                                 + " " + result.Position.LongitudeDirection;
 
         }
     }
